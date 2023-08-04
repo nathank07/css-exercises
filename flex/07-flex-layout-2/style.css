@@ -49,6 +49,7 @@ body {
   flex: none;
   width: 300px;
   background: royalblue;
+  box-sizing: border-box;
 }
 
 ul{
