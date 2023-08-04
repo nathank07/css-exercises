@@ -17,8 +17,23 @@
   padding: 0;
   margin: 0;
   background-color: rgb(99, 97, 97);
-
+  animation-duration: 1s;
+  animation-name: dropdown;
+  animation-direction: normal;
+  transform-origin: top;
   display: none;
+}
+
+@keyframes dropdown {
+  from {
+    transform: scaleY(0);
+  }
+  50% {
+    transform: scaleY(1.1);
+  }
+  to {
+    transform: scaleY(1);
+  }
 }
 
 ul.dropdown-menu li:hover {
